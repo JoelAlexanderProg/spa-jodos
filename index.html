@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA - Jodos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra superior -->
+    <header class="header">
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#promociones">PROMOCIONES</a></li>   
+                <li><a href="#fotos">FOTOS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#mapa">MAPA</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+            <div class="user-options">
+                <div class="user-info">
+                    <img src="/images/user.png" alt="Usuario" class="user-icon">
+                    <span class="account">Mi cuenta</span>
+                </div>
+                <div class="lang-option">
+                    <img src="/images/flag.png" alt="Español" class="flag-icon">
+                    <span class="language">ES</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Principal con Imagen de Fondo -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>SPA - Jodos</h1>
+            <p>Regálate un momento de paz y <br>consiente a tu piel en el mejor lugar</p>
+        </div>
+    </section>
+
+    <!-- Barra superior promociones -->
+    <header class="top-bar">
+        <div class="container">
+            <div class="reservation-promo-container">
+                <div class="reservation">
+                    <label for="date-input">RESERVA TU CITA:</label>
+                    <input type="text" id="date-input">
+                </div>
+                <div class="promo-code">
+                    <label for="code-input">CÓDIGO PROMOCIONAL:</label>
+                    <input type="text" id="code-input" placeholder="CÓDIGO">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de tarjetas -->
+    <section class="services-section">
+        <div class="container">
+            <div class="service-card">
+                <div class="card-header">
+                    <h2>Masaje de pies</h2>
+                </div>
+                <img src="/images/pies.png" alt="Masaje de pies">
+                <p>Esta es una descripción de la opción en cuestión.....</p>
+                <div class="price-reserve">
+                    <span>$65</span>
+                    <button class="reserve-btn">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-header">
+                    <h2>Masaje relajante</h2>
+                </div>
+                <img src="/images/relajante.png" alt="Masaje relajante">
+                <p>Esta es una descripción de la opción en cuestión.....</p>
+                <div class="price-reserve">
+                    <span>$60</span>
+                    <button class="reserve-btn">RESERVAR</button>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-header">
+                    <h2>Masaje con bambú</h2>
+                </div>
+                <img src="/images/bambu.png" alt="Masaje con bambú">
+                <p>Esta es una descripción de la opción en cuestión.....</p>
+                <div class="price-reserve">
+                    <span>$58</span>
+                    <button class="reserve-btn">RESERVAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Socios y Beneficios -->
+    <section class="socios-beneficios">
+        <h1>Haste socio y prueba nuestros beneficios</h1>
+        <div class="membership-cards">
+            <!-- Tarjeta Gold -->
+            <div class="card">
+                <div class="circle-container">
+                    <img src="/images/gold.png" alt="Crown Gold" class="crown-image">
+                </div>
+                <h2>GOLD</h2>
+                <button class="btn-ver-condiciones">VER CONDICIONES</button>
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Piscina</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+            <!-- Tarjeta Premium -->
+            <div class="card">
+                <div class="circle-container">
+                    <img src="/images/premium.png" alt="Crown Premium" class="crown-image">
+                </div>
+                <h2>PREMIUM</h2>
+                <button class="btn-ver-condiciones">VER CONDICIONES</button>
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+            <!-- Tarjeta Plate -->
+            <div class="card">
+                <div class="circle-container">
+                    <img src="/images/plate.png" alt="Crown Plate" class="crown-image">
+                </div>
+                <h2>PLATE</h2>
+                <button class="btn-ver-condiciones">VER CONDICIONES</button>
+                <ul>
+                    <li>Tratamientos faciales</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Barra Inferior -->
+    <footer class="footer">
+        <div class="links">
+            <a href="#" class="link">POLÍTICAS DE COOKIES</a>
+            <a href="#" class="link">AVISO LEGAL</a>
+            <a href="#" class="link">PROTECCIÓN DE DATOS</a>
+            <a href="#" class="link">MAPA DEL SITIO</a>
+        </div>
+        <div class="social-media">
+            <span>SÍGUENOS EN</span>
+            <a href="#"><img src="/images/rs_facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/images/rs_twiter.png" alt="Twitter"></a>
+            <a href="#"><img src="/images/rs_youtube.png" alt="YouTube"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
